@@ -123,8 +123,13 @@ export default function Home() {
         </Link>
       </section>
 
-      <footer className="px-6 py-8 text-center text-xs text-ink/40">
-        © {new Date().getFullYear()} PawDex — Fait avec 🐾
+            <footer className="px-6 py-8 text-center text-xs text-ink/40 space-y-2">
+        <p>© {new Date().getFullYear()} PawDex — Fait avec 🐾</p>
+        <p className="flex justify-center gap-4">
+          <Link href="/mentions-legales" className="hover:text-ink/60">Mentions légales</Link>
+          <Link href="/cgv" className="hover:text-ink/60">CGV</Link>
+          <Link href="/confidentialite" className="hover:text-ink/60">Confidentialité</Link>
+        </p>
       </footer>
     </main>
   );
