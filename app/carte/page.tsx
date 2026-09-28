@@ -166,7 +166,7 @@ export default function CartePage() {
 
         <div className="mt-8 space-y-3">
           <Link
-            href="/payer"
+            href="https://buy.stripe.com/test_7sYbJ39id2C67E83Gh1Fe00"
             className="block text-center px-8 py-4 rounded-2xl bg-coral text-white font-display font-semibold text-lg shadow-lg shadow-coral/30 hover:scale-[1.02] transition-transform"
           >
             Débloquer ma carte HD — 9€
